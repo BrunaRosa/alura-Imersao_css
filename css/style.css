@@ -1,0 +1,41 @@
+body {
+    background-image:
+  url('https://i.pinimg.com/564x/57/4f/53/574f53dc4128d3c099f458d2a78343aa.jpg');
+    background-size: 100vh;
+    font-family: Arial;
+    height:100vh;
+}
+  
+.menu {
+    background-color: white;
+}
+  
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+  
+.menu li {
+    list-style: none;
+}
+  
+a {
+  color:#000000;
+  text-decoration: none;
+  font-style: normal;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+.site-subtitle,
+.site-title {
+  color: #A52A2A;
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+  }
