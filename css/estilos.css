@@ -12,8 +12,11 @@ body {
     background-size: 100vh;
     font-family: Arial;
     height:100vh;
-    font-size: 12px;;
+    font-size: 12px;
+}
 
+section {
+    display: flex;
 }
 
 /* se a tela tiver pelo menos 400px carregar esses estilos */
@@ -37,7 +40,7 @@ body {
 }
 
 header {
-  height: 100vh;
+  height: 27vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,10 +87,6 @@ a:hover {
   text-align: center;
 }
 
-.site-title size{
-
-}
-
 .site-subtitle {
   font-style: italic;
   }
@@ -96,3 +95,8 @@ a:hover {
   height: 180px;
   width: 180px;
 }
+
+figure {
+  justify-content: space-between;
+}
+
