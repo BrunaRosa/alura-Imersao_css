@@ -1,18 +1,19 @@
 /* soft reset do css */
 * {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   box-sizing: border-box;
+  /*! height: ; */
+  width: initial;
 }
 
 
 body {
-    background-image:
-  url('../files/fundo_meu_site.jpeg');
     background-size: 100vh;
     font-family: Arial;
     height:100vh;
     font-size: 12px;
+    background-color: antiquewhite;
 }
 
 section {
@@ -40,17 +41,18 @@ section {
 }
 
 header {
-  height: 27vh;
+  height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-direction: row-reverse;
 }
   
 .menu {
     background-color: white;
     position: fixed;
     width: 100vw;
-    top: 0;
+    top: 0px;
 }
   
 .menu ul {
@@ -84,19 +86,50 @@ a:hover {
 .site-subtitle,
 .site-title {
   color: #A52A2A;
-  text-align: center;
+  text-align: right;
+  /*! text-justify: unset; */
+  padding-right: inherit;
 }
 
 .site-subtitle {
   font-style: italic;
-  }
+}
 
-.img-portfolio {
-  height: 180px;
-  width: 180px;
+.img-minha {
+  height: 380px;
+  width: 380px;
+}
+
+.img-usuario {
+  height: 100px;
+  width: 100px;
+}
+
+.img-twitter {
+  height: 70px;
+  width: 70px;
+}
+
+.img-instagram {
+  height: 70px;
+  width: 70px;
+}
+
+.img-linkedin {
+  height: 70px;
+  width: 70px;
+}
+
+.img-medium {
+  height: 70px;
+  width: 70px;
+}
+
+.img-github {
+  height: 70px;
+  width: 70px;
 }
 
 figure {
   justify-content: space-between;
 }
-
