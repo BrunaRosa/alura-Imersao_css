@@ -4,6 +4,8 @@
   padding: 0px;
   box-sizing: border-box;
   width: initial;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 /* estilização da estrutura html */
@@ -54,7 +56,7 @@ header {
 }
 
 .menu ul {
-  display: inline-flex;
+  display: flex;
   justify-content: end;
   align-items: center;
 }
