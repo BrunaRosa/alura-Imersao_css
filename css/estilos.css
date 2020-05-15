@@ -98,13 +98,20 @@ a:hover {
 
 .site-subtitle,
 .site-title {
-  color: #A52A2A;
+  color: black;
   text-align: right;
   padding-right: inherit;
 }
 
+.site-title {
+  font-family: 'Indie Flower', cursive;
+  font-style: oblique;
+  color: #000000;
+}
+
 .site-subtitle {
   font-style: italic;
+  font-family: 'Abril Fatface', cursive;
 }
 
 /* estilização de imagens */
