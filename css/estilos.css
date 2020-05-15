@@ -44,9 +44,7 @@ header {
   }
 }
 
-
 /* estilização do menu */
-
 .menu {
   background-color: white;
   position: fixed;
@@ -95,7 +93,6 @@ a:hover {
 }
 
 /* estilização de menu */
-
 .site-subtitle,
 .site-title {
   color: black;
