@@ -4,6 +4,9 @@ Esse site foi criado como certificado das aulas de HTML e CSS do qual obtive a o
 
 <img src= "files/icones_css_html.jpeg" alt= "Icones do HTML e Css" height="200">
 
+<br><h2>Para acessar o site:</h2>
+<blockquote><b>Git page: (https://brunarosa.github.io/Imersao_css/)</b></blockquote>
+
 <br><h2>Pré- requisitos</h2>
 
 Esse projeto não é necessário instalar nenhum framework ou linguagem:
