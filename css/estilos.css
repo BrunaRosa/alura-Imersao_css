@@ -59,6 +59,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  font-weight: bold;
 }
 
 .menu li {
@@ -80,6 +81,8 @@ li a:hover {
 
 section {
     display: flex;
+    text-align: center;
+    margin: auto;
 }
 
 /* estilização de links */
@@ -94,21 +97,21 @@ a:hover {
   color: purple;
 }
 
-/* estilização de menu */
-.site-subtitle,
-.site-title {
+/* estilização da home */
+.home-subtitle,
+.home-title {
   color: black;
-  text-align: right;
+  text-align: center;
   padding-right: inherit;
 }
 
-.site-title {
+.home-title {
   font-family: 'Indie Flower', cursive;
   font-style: oblique;
   color: #000000;
 }
 
-.site-subtitle {
+.home-subtitle {
   font-style: italic;
   font-family: 'Abril Fatface', cursive;
 }
@@ -147,8 +150,31 @@ a:hover {
 .img-github {
   height: 70px;
   width: 70px;
+  border-radius: 0em;
+}
+
+.icone-js {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.icone-qa-sampa {
+  height: 100px;
+  width: 115px;
+  border-radius: 10px;
+}
+
+.icone-alura {
+  height: 100px;
+  width: 115px;
+  border-radius: 10px;
 }
 
 figure {
-  justify-content: space-between;
+  margin: 1.0em;
+}
+
+figure figcaption {
+  font-weight: bold;
 }
