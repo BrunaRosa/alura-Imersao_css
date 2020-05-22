@@ -20,8 +20,8 @@ Esse projeto não é necessário instalar nenhum framework ou linguagem:
 <br><h2>Professoras do curso</h2>
 <blockquote>
 <ul> 
-    <li> [Vanessa Tonini] -  (https://www.caelum.com.br/instrutor-vanessa-tonini) </li>
-    <li> [Juliana Amoasei] - (https://cursos.alura.com.br/user/juliana-amoasei)</li>
+    <li>[Vanessa Tonini] -  (https://www.caelum.com.br/instrutor-vanessa-tonini)</li>
+    <li>[Juliana Amoasei] - (https://cursos.alura.com.br/user/juliana-amoasei)</li>
 </ul>
 </blockquote>
 
