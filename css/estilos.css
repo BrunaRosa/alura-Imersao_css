@@ -83,9 +83,7 @@ header {
 }
 
 section {
-    display: flex;
     text-align: center;
-    margin: auto;
 }
 
 /* estilização de links */
@@ -133,27 +131,26 @@ a:hover {
    }
 
 }
-.portfolio {
-  padding: 2em;
-  min-height: 100vh;
-}
 
 .portifolio .grid {
-  display: contents;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 
 @media (min-width: 560px) {
-  .portfolio .grid {
+  .portifolio .grid {
     grid-template-columns: 240px 240px;
   }
 }
 
 @media (min-width: 880px) {
-  .portfolio .grid {
+  .portifolio .grid,
+  .contato .grid {
     grid-template-columns: repeat(3, 260px);
     align-content: center;
     justify-content: center;
-    height: calc(100vh - 8em - 48px);
+    height: calc(60vh - 10em - 48px);
   }
 }
 
@@ -176,7 +173,7 @@ a:hover {
 }
 
 .img-minha-foto {
-  height: 350px;
+  height: 344px;
   width: 350px;
 }
 
@@ -184,11 +181,6 @@ a:hover {
   .img-minha-foto {
     width: 323px;
   }
-}
-
-.img-usuario {
-  height: 100px;
-  width: 100px;
 }
 
 .img-portifolio {
@@ -218,4 +210,57 @@ figure {
 
 figure figcaption {
   font-weight: bold;
+}
+
+.sobre,
+.contato,
+.portfolio {
+  padding: 2em;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+  }
+}
+
+.sobre h2,
+.contato h2,
+.portifolio h2 {
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  margin-bottom: 0.5em;
+  font-size: 2em;
+}
+
+.sobre p {
+  color: black;
+  text-indent: 4em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.sobre a {
+  color: black;
+  text-decoration: underline;
+}
+
+.sobre a:hover {
+  background-color: rgb(218, 152, 216);
+  text-decoration: none;
+  color: white;
+}
+
+.sobre .avatar {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  margin-left: 2em;
+}
+
+@media (min-width: 600px) {
+  .sobre .avatar {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    float: right;
+  }
 }
