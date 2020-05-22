@@ -40,7 +40,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   body {
     font-size: 20px;
   }
@@ -67,8 +67,9 @@ header {
   list-style: none;
   display: block;
   text-align: center;
-  padding: 0px 13px;
+  /*! padding: 0px 16px; */
   text-decoration: none;
+  margin: auto;
 }
 
 .menu a {
@@ -80,6 +81,11 @@ header {
 .menu a:hover {
   background-color: rosybrown;
   color:white;
+}
+
+.tituloMenu {
+  background-color: antiquewhite;
+  padding: 10px !important;
 }
 
 section {
@@ -218,11 +224,11 @@ figure figcaption {
   padding: 2em;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .container {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    max-width: 1000px;
   }
 }
 
