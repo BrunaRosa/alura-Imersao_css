@@ -28,9 +28,9 @@ header {
 
 /* estilização da responsividade do body */
 /* se a tela tiver pelo menos 400px carregar esses estilos */
-@media (min-width: 400px) {
+@media (min-width: 360px) {
   body {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
@@ -53,6 +53,7 @@ header {
   width: 100vw;
   top: 0px;
   display: grid;
+  z-index: 1;
 }
 
 .menu ul {
@@ -73,10 +74,12 @@ header {
 .menu a {
   display: block;
   padding: 10px 20px;
+  transition: background-color 1s, color 2s;
 }
 
-li a:hover {
-  background-color: antiquewhite;
+.menu a:hover {
+  background-color: rosybrown;
+  color:white;
 }
 
 section {
@@ -97,7 +100,7 @@ a:hover {
   color: purple;
 }
 
-/* estilização da home */
+/* estilização dos titulos e icones*/
 .home-subtitle,
 .home-title {
   color: black;
@@ -116,10 +119,71 @@ a:hover {
   font-family: 'Abril Fatface', cursive;
 }
 
-/* estilização de imagens */
-.img-minha {
-  height: 380px;
-  width: 380px;
+.titulo {
+  transform: scale(0.2) translateY(50vh);
+  opacity: 0;
+
+  animation: linear 2s animacaoTitulo forwards;
+}
+
+@keyframes animacaoTitulo {
+   to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+   }
+
+}
+.portfolio {
+  padding: 2em;
+  min-height: 100vh;
+}
+
+.portifolio .grid {
+  display: contents;
+}
+
+@media (min-width: 560px) {
+  .portfolio .grid {
+    grid-template-columns: 240px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .portfolio .grid {
+    grid-template-columns: repeat(3, 260px);
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 8em - 48px);
+  }
+}
+
+.contato a {
+  color: black;
+  font-size: 5em;
+  transition: text-shadow 1s;
+}
+
+.contato a:active,
+.contato a:hover  {
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgb(151, 9, 109);
+}
+
+@media (min-width: 360px) {
+  .contato a {
+    font-size: 4em;
+  }
+}
+
+.img-minha-foto {
+  height: 350px;
+  width: 350px;
+}
+
+@media (min-width: 360px) {
+  .img-minha-foto {
+    width: 323px;
+  }
 }
 
 .img-usuario {
@@ -127,48 +191,25 @@ a:hover {
   width: 100px;
 }
 
-.img-twitter {
-  height: 70px;
-  width: 70px;
-}
-
-.img-instagram {
-  height: 70px;
-  width: 70px;
-}
-
-.img-linkedin {
-  height: 70px;
-  width: 70px;
-}
-
-.img-medium {
-  height: 70px;
-  width: 70px;
-}
-
-.img-github {
-  height: 70px;
-  width: 70px;
-  border-radius: 0em;
-}
-
-.icone-js {
-  height: 100px;
-  width: 100px;
-  border-radius: 10px;
-}
-
-.icone-qa-sampa {
+.img-portifolio {
   height: 100px;
   width: 115px;
-  border-radius: 10px;
+  border-radius: 9px;
+  object-fit: cover;
+  object-position: left bottom;
+  transition: transform 500ms;
 }
 
-.icone-alura {
-  height: 100px;
-  width: 115px;
-  border-radius: 10px;
+.img-portifolio:hover {
+  transform: scale(1.2) rotate(0deg);
+}
+
+@media (min-width: 360px) {
+  .img-portifolio {
+    height: 88px;
+    width: 88px;  
+    padding: 0em;
+  }
 }
 
 figure {
