@@ -83,7 +83,7 @@ header {
 }
 
 
-.tituloMenu {
+.titleMenu {
   background-color: #B0C4DE;
   padding: 10px;
 }
@@ -123,7 +123,7 @@ a:hover {
   font-family: 'Abril Fatface', cursive;
 }
 
-.titulo {
+.title {
   transform: scale(0.2) translateY(50vh);
   opacity: 0;
 
@@ -152,7 +152,7 @@ a:hover {
 
 @media (min-width: 880px) {
   .portfolio .grid,
-  .contato .grid {
+  .contacts .grid {
     grid-template-columns: repeat(3, 260px);
     align-content: center;
     justify-content: center;
@@ -160,20 +160,20 @@ a:hover {
   }
 }
 
-.contato a {
+.contacts a {
   color: #000000;
   font-size: 5em;
   transition: text-shadow 1s;
 }
 
-.contato a:active,
-.contato a:hover  {
+.contacts a:active,
+.contacts a:hover  {
   text-decoration: none;
   text-shadow: 0px 0px 10px #95096b;
 }
 
 @media (min-width: 360px) {
-  .contato a {
+  .contacts a {
     font-size: 4em;
   }
 }
@@ -218,8 +218,8 @@ figure figcaption {
   font-weight: bold;
 }
 
-.sobre,
-.contato,
+.about,
+.contacts,
 .portfolio {
   padding: 2em;
 }
@@ -232,8 +232,8 @@ figure figcaption {
   }
 }
 
-.sobre h2,
-.contato h2,
+.about h2,
+.contacts h2,
 .portfolio h2 {
   font-family: 'Indie Flower', cursive;
   color: #000000;
@@ -241,31 +241,31 @@ figure figcaption {
   font-size: 2em;
 }
 
-.sobre p {
+.about p {
   color: #000000;
   text-indent: 4em;
   margin-bottom: 0em;
   text-align: center;
 }
 
-.sobre a {
+.about a {
   color: #000000;
   text-decoration: underline;
 }
 
-.sobre a:hover {
+.about a:hover {
   background-color: #da98d8;
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.sobre .avatar {
+.about .avatar {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   margin-left: 2em;
 }
 
 @media (min-width: 600px) {
-  .sobre .avatar {
+  .about .avatar {
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     float: right;
   }
