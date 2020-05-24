@@ -28,6 +28,12 @@ header {
 
 /* estilização da responsividade do body */
 /* se a tela tiver pelo menos 400px carregar esses estilos */
+@media (min-width: 320px) {
+  body {
+    font-size: 8px;
+  }
+}
+
 @media (min-width: 360px) {
   body {
     font-size: 10px;
@@ -37,12 +43,6 @@ header {
 @media (min-width: 600px) {
   body {
     font-size: 18px;
-  }
-}
-
-@media (min-width: 1000px) {
-  body {
-    font-size: 20px;
   }
 }
 
@@ -81,7 +81,6 @@ header {
   background-color: #B0C4DE;
   color:#FFFFFF;
 }
-
 
 .titleMenu {
   background-color: #B0C4DE;
@@ -130,6 +129,20 @@ a:hover {
   animation: linear 2s animacaoTitulo forwards;
 }
 
+@media (min-width: 320px) {
+  .home-subtitle,
+  .home-title  {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 360px) {
+  .home-subtitle,
+  .home-title  {
+    font-size: 1.5em;
+  }
+}
+
 @keyframes animacaoTitulo {
    to {
     transform: scale(1) translateY(0);
@@ -140,15 +153,9 @@ a:hover {
 
 .portfolio .grid {
   display: flex;
-  text-align: center;
-  align-items: center;
+  justify-content: center;
 }
 
-@media (min-width: 560px) {
-  .portfolio .grid {
-    grid-template-columns: 240px 240px;
-  }
-}
 
 @media (min-width: 880px) {
   .portfolio .grid,
@@ -156,7 +163,6 @@ a:hover {
     grid-template-columns: repeat(3, 260px);
     align-content: center;
     justify-content: center;
-    height: calc(60vh - 10em - 48px);
   }
 }
 
@@ -183,6 +189,12 @@ a:hover {
   width: 350px;
 }
 
+@media (min-width: 320px) {
+  .img-minha-foto {
+    width: 283px;
+  }
+}
+
 @media (min-width: 360px) {
   .img-minha-foto {
     width: 323px;
@@ -200,6 +212,14 @@ a:hover {
 
 .img-portfolio:hover {
   transform: scale(1.2) rotate(0deg);
+}
+
+@media (min-width: 320px) {
+  .img-portfolio {
+    height: 75px;
+    width: 75px;  
+    padding: 0em;
+  }
 }
 
 @media (min-width: 360px) {
