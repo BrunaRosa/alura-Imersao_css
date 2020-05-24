@@ -15,7 +15,7 @@ body {
   font-family: Arial;
   height:100vh;
   font-size: 12px;
-  background-color: antiquewhite;
+  background-color: #B0C4DE;
 }
 
 header {
@@ -48,7 +48,7 @@ header {
 
 /* estilização do menu */
 .menu {
-  background-color: white;
+  background-color: #FFFFFF;
   position: fixed;
   width: 100vw;
   top: 0px;
@@ -67,7 +67,6 @@ header {
   list-style: none;
   display: block;
   text-align: center;
-  /*! padding: 0px 16px; */
   text-decoration: none;
   margin: auto;
 }
@@ -79,13 +78,14 @@ header {
 }
 
 .menu a:hover {
-  background-color: rosybrown;
-  color:white;
+  background-color: #B0C4DE;
+  color:#FFFFFF;
 }
 
+
 .tituloMenu {
-  background-color: antiquewhite;
-  padding: 10px !important;
+  background-color: #B0C4DE;
+  padding: 10px;
 }
 
 section {
@@ -101,13 +101,13 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: purple;
+  color: #800080;
 }
 
 /* estilização dos titulos e icones*/
 .home-subtitle,
 .home-title {
-  color: black;
+  color: #000000;
   text-align: center;
   padding-right: inherit;
 }
@@ -138,20 +138,20 @@ a:hover {
 
 }
 
-.portifolio .grid {
+.portfolio .grid {
   display: flex;
   text-align: center;
   align-items: center;
 }
 
 @media (min-width: 560px) {
-  .portifolio .grid {
+  .portfolio .grid {
     grid-template-columns: 240px 240px;
   }
 }
 
 @media (min-width: 880px) {
-  .portifolio .grid,
+  .portfolio .grid,
   .contato .grid {
     grid-template-columns: repeat(3, 260px);
     align-content: center;
@@ -161,7 +161,7 @@ a:hover {
 }
 
 .contato a {
-  color: black;
+  color: #000000;
   font-size: 5em;
   transition: text-shadow 1s;
 }
@@ -169,7 +169,7 @@ a:hover {
 .contato a:active,
 .contato a:hover  {
   text-decoration: none;
-  text-shadow: 0px 0px 10px rgb(151, 9, 109);
+  text-shadow: 0px 0px 10px #95096b;
 }
 
 @media (min-width: 360px) {
@@ -189,7 +189,7 @@ a:hover {
   }
 }
 
-.img-portifolio {
+.img-portfolio {
   height: 100px;
   width: 115px;
   border-radius: 9px;
@@ -198,12 +198,12 @@ a:hover {
   transition: transform 500ms;
 }
 
-.img-portifolio:hover {
+.img-portfolio:hover {
   transform: scale(1.2) rotate(0deg);
 }
 
 @media (min-width: 360px) {
-  .img-portifolio {
+  .img-portfolio {
     height: 88px;
     width: 88px;  
     padding: 0em;
@@ -234,29 +234,29 @@ figure figcaption {
 
 .sobre h2,
 .contato h2,
-.portifolio h2 {
+.portfolio h2 {
   font-family: 'Indie Flower', cursive;
-  color: black;
+  color: #000000;
   margin-bottom: 0.5em;
   font-size: 2em;
 }
 
 .sobre p {
-  color: black;
+  color: #000000;
   text-indent: 4em;
   margin-bottom: 0em;
   text-align: center;
 }
 
 .sobre a {
-  color: black;
+  color: #000000;
   text-decoration: underline;
 }
 
 .sobre a:hover {
-  background-color: rgb(218, 152, 216);
+  background-color: #da98d8;
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
 }
 
 .sobre .avatar {
