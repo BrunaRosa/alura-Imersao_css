@@ -2,7 +2,7 @@
 
 Esse site foi criado como certificado das aulas de HTML e CSS do qual obtive a oportunidade de acrescentar conhecimentos que já aprendi até o momento na Alura.
 
-<img src= "files/icones-css-html.jpeg" alt= "Icones do HTML e Css" height="200">
+<img src= "../src/files/icones-css-html.jpeg" alt= "Icones do HTML e Css" height="200">
 
 <br><h2>Para acessar o site:</h2>
 <blockquote><b>Git page: (https://brunarosa.github.io/Imersao_css/)</b></blockquote>
