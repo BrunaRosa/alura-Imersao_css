@@ -1,292 +1,104 @@
-/* soft reset do css */
-* {
-  margin: 0;
-  padding: 0px;
-  box-sizing: border-box;
-  width: initial;
-  object-fit: cover;
-  object-position: bottom;
-}
-
-/* estilização da estrutura html */
-
-body {
-  background-size: 100vh;
-  font-family: Arial;
-  height:100vh;
-  font-size: 12px;
-  background-color: #B0C4DE;
-}
-
-header {
-  height: 100vh;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-
-/* estilização da responsividade do body */
-/* se a tela tiver pelo menos 400px carregar esses estilos */
+/* Styles to all pages  */
 @media (min-width: 320px) {
-  body {
-    font-size: 8px;
-  }
+    body {
+        font-size: 8px;
+    }
 }
 
 @media (min-width: 360px) {
-  body {
-    font-size: 10px;
-  }
+    body {
+        font-size: 10px;
+    }
 }
 
 @media (min-width: 600px) {
-  body {
-    font-size: 18px;
-  }
+    body {
+        font-size: 18px;
+    }
 }
-
-/* estilização do menu */
-.menu {
-  background-color: #FFFFFF;
-  position: fixed;
-  width: 100vw;
-  top: 0px;
-  display: grid;
-  z-index: 1;
-}
-
-.menu ul {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-weight: bold;
-}
-
-.menu li {
-  list-style: none;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  margin: auto;
-}
-
-.menu a {
-  display: block;
-  padding: 10px 20px;
-  transition: background-color 1s, color 2s;
-}
-
-.menu a:hover {
-  background-color: #B0C4DE;
-  color:#FFFFFF;
-}
-
-.titleMenu {
-  background-color: #B0C4DE;
-  padding: 10px;
-}
-
-section {
-    text-align: center;
-}
-
-/* estilização de links */
-a {
-  color:#000000;
-  text-decoration: none;
-  font-style: normal;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #800080;
-}
-
-/* estilização dos titulos e icones*/
-.home-subtitle,
-.home-title {
-  color: #000000;
-  text-align: center;
-  padding-right: inherit;
-}
-
-.home-title {
-  font-family: 'Indie Flower', cursive;
-  font-style: oblique;
-  color: #000000;
-}
-
-.home-subtitle {
-  font-style: italic;
-  font-family: 'Abril Fatface', cursive;
-}
-
-.title {
-  transform: scale(0.2) translateY(50vh);
-  opacity: 0;
-
-  animation: linear 2s animacaoTitulo forwards;
-}
-
-@media (min-width: 320px) {
-  .home-subtitle,
-  .home-title  {
-    font-size: 2em;
-  }
-}
-
-@media (min-width: 360px) {
-  .home-subtitle,
-  .home-title  {
-    font-size: 1.5em;
-  }
-}
-
-@keyframes animacaoTitulo {
-   to {
-    transform: scale(1) translateY(0);
-    opacity: 1;
-   }
-
-}
-
-.portfolio .grid {
-  display: flex;
-  justify-content: center;
-}
-
 
 @media (min-width: 880px) {
-  .portfolio .grid,
-  .contacts .grid {
-    grid-template-columns: repeat(3, 260px);
-    align-content: center;
-    justify-content: center;
-  }
-}
 
-.contacts a {
-  color: #000000;
-  font-size: 5em;
-  transition: text-shadow 1s;
-}
-
-.contacts a:active,
-.contacts a:hover  {
-  text-decoration: none;
-  text-shadow: 0px 0px 10px #95096b;
-}
-
-@media (min-width: 360px) {
-  .contacts a {
-    font-size: 4em;
-  }
-}
-
-.img-minha-foto {
-  height: 344px;
-  width: 350px;
-}
-
-@media (min-width: 320px) {
-  .img-minha-foto {
-    width: 283px;
-  }
-}
-
-@media (min-width: 360px) {
-  .img-minha-foto {
-    width: 323px;
-  }
-}
-
-.img-portfolio {
-  height: 100px;
-  width: 115px;
-  border-radius: 9px;
-  object-fit: cover;
-  object-position: left bottom;
-  transition: transform 500ms;
-}
-
-.img-portfolio:hover {
-  transform: scale(1.2) rotate(0deg);
-}
-
-@media (min-width: 320px) {
-  .img-portfolio {
-    height: 75px;
-    width: 75px;  
-    padding: 0em;
-  }
-}
-
-@media (min-width: 360px) {
-  .img-portfolio {
-    height: 88px;
-    width: 88px;  
-    padding: 0em;
-  }
-}
-
-figure {
-  margin: 1.0em;
-}
-
-figure figcaption {
-  font-weight: bold;
-}
-
-#about,
-.contacts,
-.portfolio {
-  padding: 2em;
+    #portfolio .grid,
+    #contacts .grid {
+        grid-template-columns: repeat(3, 260px);
+        align-content: center;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 1000px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;
-  }
-}
-
-#about h2,
-.contacts h2,
-.portfolio h2 {
-  font-family: 'Indie Flower', cursive;
-  color: #000000;
-  margin-bottom: 0.5em;
-  font-size: 2em;
-}
-
-#about p {
-  color: #000000;
-  text-indent: 4em;
-  margin-bottom: 0em;
-  text-align: center;
-}
-
-#about a {
-  color: #000000;
-  text-decoration: underline;
-}
-
-#about a:hover {
-  background-color: #da98d8;
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-#about .avatar {
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  margin-left: 2em;
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+    }
 }
 
 @media (min-width: 600px) {
-  #about .avatar {
-    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    float: right;
-  }
+    #about .avatar {
+        clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+        float: right;
+    }
+}
+
+/*  Styles to page: Home */
+@media (min-width: 320px) {
+
+    .home-subtitle,
+    .home-title {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 360px) {
+
+    .home-subtitle,
+    .home-title {
+        font-size: 1.5em;
+    }
+}
+
+@keyframes animationTitle {
+    to {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+}
+
+/*  Styles to page: Contact */
+@media (min-width: 360px) {
+    .contacts a {
+        font-size: 4em;
+    }
+}
+
+/*  Styles to page: Portfolio */
+@media (min-width: 320px) {
+    .img-portfolio {
+        height: 75px;
+        width: 75px;
+        padding: 0em;
+    }
+}
+
+@media (min-width: 360px) {
+    .img-portfolio {
+        height: 88px;
+        width: 88px;
+        padding: 0em;
+    }
+}
+
+/*  Styles to page: About */
+@media (min-width: 320px) {
+    .img-minha-foto {
+        width: 283px;
+    }
+}
+
+@media (min-width: 360px) {
+    .img-minha-foto {
+        width: 323px;
+    }
 }
