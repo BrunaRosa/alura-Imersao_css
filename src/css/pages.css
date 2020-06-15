@@ -53,8 +53,8 @@ header {
 
 .menu a {
   display: block;
-  padding: 10px 20px;
-  transition: background-color 1s, color 2s;
+  padding: 10px 70px;
+  /* transition: background-color 1s, color 2s; */
 }
 
 .menu a:hover {
@@ -64,7 +64,7 @@ header {
 
 .titleMenu {
   background-color: #B0C4DE;
-  padding: 10px;
+  padding: 10px 70px;
 }
 
 section {
