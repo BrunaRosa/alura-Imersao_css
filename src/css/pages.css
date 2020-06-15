@@ -88,13 +88,13 @@ figure {
 }
 
 #about,
-#contacts,
+#contact,
 #portfolio {
   padding: 2em;
 }
 
 #about h2,
-#contacts h2,
+#contact h2,
 #portfolio h2 {
   font-family: 'Indie Flower', cursive;
   color: #000000;

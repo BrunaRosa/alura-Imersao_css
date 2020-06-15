@@ -20,7 +20,7 @@
 @media (min-width: 880px) {
 
     #portfolio .grid,
-    #contacts .grid {
+    #contact .grid {
         grid-template-columns: repeat(3, 260px);
         align-content: center;
         justify-content: center;
@@ -68,7 +68,7 @@
 
 /*  Styles to page: Contact */
 @media (min-width: 360px) {
-    .contacts a {
+    .contact a {
         font-size: 4em;
     }
 }
