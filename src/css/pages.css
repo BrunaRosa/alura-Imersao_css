@@ -53,8 +53,7 @@ header {
 
 .menu a {
   display: block;
-  padding: 10px 70px;
-  /* transition: background-color 1s, color 2s; */
+  padding: 11px 70px;
 }
 
 .menu a:hover {
@@ -64,7 +63,11 @@ header {
 
 .titleMenu {
   background-color: #B0C4DE;
-  padding: 10px 70px;
+  padding: 11px 70px;
+}
+
+.fas.fa-home {
+  padding-bottom: 13px;
 }
 
 section {
