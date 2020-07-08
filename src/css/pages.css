@@ -52,7 +52,7 @@ header {
 }
 
 .menu a {
-  display: block;
+  display: flex;
   padding: 11px 70px;
 }
 
