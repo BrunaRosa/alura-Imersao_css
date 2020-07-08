@@ -1,0 +1,25 @@
+/* estilização dos titulos e icones*/
+.home-subtitle,
+.home-title {
+  color: #000000;
+  text-align: center;
+  padding-right: inherit;
+}
+
+.home-title {
+  font-family: 'Indie Flower', cursive;
+  font-style: oblique;
+  color: #000000;
+}
+
+.home-subtitle {
+  font-style: italic;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.title {
+  transform: scale(0.2) translateY(50vh);
+  opacity: 0;
+
+  animation: linear 1s animationTitle forwards;
+}

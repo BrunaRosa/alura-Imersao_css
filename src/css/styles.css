@@ -1,0 +1,104 @@
+/* Styles to all pages  */
+@media (min-width: 320px) {
+    body {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 360px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 880px) {
+
+    #portfolio .grid,
+    #contact .grid {
+        grid-template-columns: repeat(3, 260px);
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 600px) {
+    #about .avatar {
+        clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+        float: right;
+    }
+}
+
+/*  Styles to page: Home */
+@media (min-width: 320px) {
+
+    .home-subtitle,
+    .home-title {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 360px) {
+
+    .home-subtitle,
+    .home-title {
+        font-size: 1.5em;
+    }
+}
+
+@keyframes animationTitle {
+    to {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+}
+
+/*  Styles to page: Contact */
+@media (min-width: 360px) {
+    .contact a {
+        font-size: 4em;
+    }
+}
+
+/*  Styles to page: Portfolio */
+@media (min-width: 320px) {
+    .img-portfolio {
+        height: 75px;
+        width: 75px;
+        padding: 0em;
+    }
+}
+
+@media (min-width: 360px) {
+    .img-portfolio {
+        height: 88px;
+        width: 88px;
+        padding: 0em;
+    }
+}
+
+/*  Styles to page: About */
+@media (min-width: 320px) {
+    .img-minha-foto {
+        width: 283px;
+    }
+}
+
+@media (min-width: 360px) {
+    .img-minha-foto {
+        width: 323px;
+    }
+}

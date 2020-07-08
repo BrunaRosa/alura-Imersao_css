@@ -1,0 +1,11 @@
+#contact a {
+    color: #000000;
+    font-size: 5em;
+    transition: text-shadow 1s;
+}
+
+#contact a:active,
+#contact a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #95096b;
+}

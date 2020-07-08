@@ -1,0 +1,21 @@
+#portfolio .grid {
+    display: flex;
+    justify-content: center;
+}
+
+.img-portfolio {
+    height: 100px;
+    width: 115px;
+    border-radius: 9px;
+    object-fit: cover;
+    object-position: left bottom;
+    transition: transform 500ms;
+}
+
+.img-portfolio:hover {
+    transform: scale(1.2) rotate(0deg);
+}
+
+figure figcaption {
+    font-weight: bold;
+}
