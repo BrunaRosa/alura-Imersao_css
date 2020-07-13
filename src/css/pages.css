@@ -52,22 +52,22 @@ header {
 }
 
 .menu a {
-  display: block;
-  padding: 11px 70px;
+  display: flex;
+  padding: 11px 60px !important;
 }
 
 .menu a:hover {
-  background-color: #B0C4DE;
+  background-color: #2d3642;
   color: #FFFFFF;
 }
 
 .titleMenu {
   background-color: #B0C4DE;
-  padding: 11px 70px;
+  padding: 11px 60px;
 }
 
 .fas.fa-home {
-  padding-bottom: 13px;
+  padding-bottom: 14px !important;
 }
 
 section {
