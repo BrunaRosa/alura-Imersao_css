@@ -4,7 +4,7 @@ Esse site foi criado como certificado das aulas de HTML e CSS do qual obtive a o
 
 <img src="./src/files/icones-css-html.jpeg" alt="Icons HTML and Css" height="200">
 
-OBS: Esse Readme.md possui a versão em Inglês: <link rel="stylesheet" href="/README_English.md">
+OBS: Esse Readme.md possui a versão em Inglês: "README_English.md" <link rel="stylesheet" href="/README_English.md">
 <br>
 <h2>Para acessar o site:</h2>
 <blockquote><b>Git page: (https://brunarosa.github.io/Imersao_css/app)</b></blockquote>
