@@ -6,7 +6,7 @@ Esse site foi criado como certificado das aulas de HTML e CSS do qual obtive a o
 
 <br>
 <h2>Para acessar o site:</h2>
-<blockquote><b>Git page: (https://brunarosa.github.io/Imersao_css/)</b></blockquote>
+<blockquote><b>Git page: (https://brunarosa.github.io/Imersao_css/app)</b></blockquote>
 
 <br>
 <h2>Pré- requisitos</h2>
