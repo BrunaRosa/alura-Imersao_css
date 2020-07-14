@@ -142,19 +142,19 @@
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
     .titleMenu {
         padding: 19px 30px !important;
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
     .fas.fa-home {
         padding-bottom: 24px !important;
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1300px) {
     .menu a {
         display: flex;
         padding: 16px 42px 21px !important;
