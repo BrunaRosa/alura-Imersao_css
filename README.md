@@ -7,7 +7,7 @@ Esse site foi criado como certificado das aulas de HTML e CSS do qual obtive a o
 OBS: Esse Readme.md possui a versão em Inglês: "README_English.md" <link rel="stylesheet" href="/README_English.md">
 <br>
 <h2>Para acessar o site:</h2>
-<blockquote><b>Git page: (https://brunarosa.github.io/Imersao_css/app)</b></blockquote>
+<blockquote><b>Git page: (https://brunarosa.github.io/alura-Imersao_css/app)</b></blockquote>
 
 <br>
 <h2>Pré- requisitos</h2>
